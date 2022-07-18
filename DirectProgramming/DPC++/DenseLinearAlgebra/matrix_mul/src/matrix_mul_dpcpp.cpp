@@ -1,19 +1,3 @@
-//==============================================================
-// Copyright © 2020 Intel Corporation
-//
-// SPDX-License-Identifier: MIT
-// =============================================================
-
-/**
- * Matrix_mul multiplies two large matrices both the CPU and the offload device,
- * then compares results. If the code executes on both CPU and the offload
- * device, the name of the offload device and a success message are displayed.
- *
- * For comprehensive instructions regarding DPC++ Programming, go to
- * https://software.intel.com/en-us/oneapi-programming-guide and search based on
- * relevant terms noted in the comments.
- */
-
 #include <CL/sycl.hpp>
 #include <iostream>
 #include <limits>
