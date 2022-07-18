@@ -31,7 +31,7 @@ using namespace sycl;
  */
 
 // Matrix size constants.
-constexpr int m_size = 150 * 8;  // Must be a multiple of 8.
+constexpr int m_size = 10 * 8;  // Must be a multiple of 8.
 constexpr int M = m_size / 8;
 constexpr int N = m_size / 4;
 constexpr int P = m_size / 2;
